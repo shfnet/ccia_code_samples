@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 #include <future>
-template<>
+template<> // template specialization
 class packaged_task<std::string(std::vector<char>*,int)>
 {
 public:
